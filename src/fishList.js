@@ -135,7 +135,7 @@ export const fishList = {
     kumquatking: { category: "unofficial", type: "misc", bitmap: false, vector: true, creator: "LandonHarter", vectorTextureCreator: "LandonHarter", fullName: "Kumquat King Fish" },
     tempest: { category: "unofficial", type: "misc", bitmap: false, vector: true, creator: "LandonHarter", fullName: "Tempest Fish" },
     ticket: { category: "unofficial", type: "misc", bitmap: false, vector: true, creator: "LandonHarter", fullName: "Ticket Fish" },
-    alenn: { category: "unofficial", type: "misc", bitmap: false, vector: true, creator: "JackyBorderCollie", vectorTextureCreator: "JackyBorderCollie", fullName: "Alenn(a) Fish" },
+    alenn: { category: "unofficial", type: "misc", bitmap: true, vector: true, creator: "JackyBorderCollie", vectorTextureCreator: "JackyBorderCollie", fullName: "Alenn(a) Fish" },
     swimmy: { category: "unofficial", type: "misc", bitmap: false, vector: true, creator: "JackyBorderCollie", vectorTextureCreator: "JackyBorderCollie", fullName: "Swimmy Fish" },
     brownie: { category: "unofficial", type: "misc", bitmap: false, vector: true, creator: "-TWILIGHTMISTY-", vectorTextureCreator: "LandonHarter (based off of -TWILILIGHTMISTY-'s vector)", fullName: "Brownie Fish" },
     rainbowstone: { category: "unofficial", type: "misc", bitmap: true, vector: true, creator: "lapisi", textureCreator: "lapisi", fullName: "Rainbowstone Fish" },
