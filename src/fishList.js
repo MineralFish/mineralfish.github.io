@@ -119,7 +119,7 @@ export const fishList = {
     firefighter: { category: "unofficial", type: "misc", bitmap: true, vector: true, creator: "Marc92020", textureCreator: "-gge", fullName: "Firefighter Fish" },
     grammarpolice: { role: "Grammar mistakes", category: "unofficial", type: "misc", bitmap: true, vector: false, creator: "-TWILIGHTMISTY-", textureCreator: "-TWILIGHTMISTY-", fullName: "Grammar Police Fish" },
     banana: { realName: "Banee/Bananee", role: "Bullies, evil Scratchers", category: "unofficial", type: "misc", bitmap: true, vector: true, creator: "Marc92020", textureCreator: "CST1229", fullName: "Banana Fish" },
-    ghost: { category: "unofficial", type: "misc", bitmap: true, vector: false, creator: "54321Tigg", textureCreator: "Marc92020", fullName: "Ghost Fish" },
+    ghost: { category: "unofficial", type: "misc", bitmap: true, vector: true, creator: "54321Tigg", textureCreator: "Marc92020", fullName: "Ghost Fish" },
     applerald: { category: "unofficial", type: "misc", bitmap: true, vector: false, creator: "JackyBorderCollie's sister", textureCreator: "CST1229", fullName: "Applerald Fish" },
     micafish: { category: "unofficial", type: "misc", bitmap: true, vector: false, creator: "CST1229", textureCreator: "CST1229", fullName: "Mica Fish Fish" },
     moonstone: { category: "unofficial", type: "misc", bitmap: true, vector: false, creator: "-TWILIGHTMISTY-", textureCreator: "-TWILIGHTMISTY-", fullName: "Moonstone Fish" },
