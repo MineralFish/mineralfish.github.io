@@ -9,18 +9,36 @@ rem you have to do that yourself.
 
 cls
 
-del /q "..\temp-built-site"
+echo Before running, make sure to commit your changes.
+echo    ^< Press any key to continue ^>
+pause > nul
 
-git checkout master
+cls
 
+echo Cleaning up
+del /q /s "..\temp-built-site" > nul
+
+echo Switching branch
+call git checkout master
+
+echo Building
 call npm install
 call npm run build
 
-xcopy /s ".\public" "..\temp-built-site\"
+echo Copying to temp folder
+xcopy ".\public" "..\temp-built-site\" /s /y /q > nul
 
-git checkout build
+echo Switching branch
+call git checkout build
 
-xcopy /s "..\temp-built-site" ".\"
+echo Copying from temp folder
+xcopy "..\temp-built-site" ".\" /s /y /q > nul
 
-echo Done. Commit, pull and it's done!
+echo Cleaning up
+del /q /s "..\temp-built-site" > nul
+
+echo.
+echo Done. Commit, push and it's done!
+echo    ^< Press any key to exit ^>
+
 pause > nul
