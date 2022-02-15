@@ -53,7 +53,7 @@ export const fishList = {
     arrow: { realName: "Arrowee", category: "technicallyofficial", type: "mcitems", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Arrow Fish" },
     bowandarrow: { realName: "Aimee & Arrowee", category: "technicallyofficial", type: "mcitems", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Bow & Arrow Fish" },
     bucket: { realName: "Fillee", category: "technicallyofficial", type: "mcitems", bitmap: true, vector: true, creator: "-gge", textureCreator: "-gge", vectorTextureCreator: "LandonHarter", fullName: "Bucket Fish" },
-    egg: { realName: "Yolkee", role: "Answers questions in QaS", category: "technicallyofficial", type: "mcitems", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Egg Fish" },
+    egg: { realName: "Yolkee", role: "Answers questions in QaS", category: "technicallyofficial", type: "mcitems", bitmap: true, vector: true, creator: "-gge", textureCreator: "-gge", vectorTextureCreator: "JackyBorderCollie", fullName: "Egg Fish" },
     melon: { realName: "Melonee", category: "technicallyofficial", type: "mcitems", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Melon Fish" },
     mutton: { realName: "Ramee", category: "technicallyofficial", type: "mcitems", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Mutton Fish" },
     cookedmutton: { realName: "Ramsee", category: "technicallyofficial", type: "mcitems", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Cooked Mutton Fish" },
