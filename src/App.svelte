@@ -5,7 +5,8 @@
 
 <main>
 	<h1>2022 Mifernian Census</h1>
-	(name idea by LandonHarter)
+	Version 1.0.1<br />
+	(name idea by LandonHarter)<br /><br />
 	<table>
 		<thead>
 			<tr>
