@@ -187,6 +187,8 @@ export const fishList = {
 	nofish: { category: "unofficial", type: "crossover", bitmap: true, vector: false, creator: "roketH77", textureCreator: "roketH77", fullName: "No-fish" },
 	olivee: { realName: "Olivee", role: "Good, making and editing pages on the Scratch/MF Wiki", category: "unofficial", type: "crossover", bitmap: true, vector: false, creator: "gilbert_given_TBG", textureCreator: "gilbert_given_TBG", fullName: "Origami Fish" },
 	ollee: { realName: "Ollee", role: "Evil, making and editing pages on the Scratch/MF Wiki", category: "unofficial", type: "crossover", bitmap: true, vector: false, creator: "gilbert_given_TBG", textureCreator: "gilbert_given_TBG", fullName: "Origami Fish" },
+	cube: { realName: "Dashee", role: "Rating Geometry Dash levels", category: "unofficial", type: "crossover", bitmap: true, vector: false, creator: "JackyBorderCollie", textureCreator: "JackyBorderCollie", fullName: "GD Cube Fish", },
+	spike: { realName: "Crashee", role: "Making Geometry Dash levels harder", category: "unofficial", type: "crossover", bitmap: true, vector: false, creator: "JackyBorderCollie", textureCreator: "JackyBorderCollie", fullName: "GD Spike Fish", },
 	
 };
 export function getString(str) {
