@@ -61,6 +61,7 @@ table>thead>tr>th {
 }
 
 .fish-bitmap {
-    max-width: 36px;
-    max-height: auto;
+	min-width: 32px;
+    max-width: 48px;
+    height: auto;
 }
