@@ -154,7 +154,7 @@ export const fishList = {
 	liberachat: { role: "Unmoderated chat", realName: "Nopee, Cordlee, Redlee, Twerlee, Mailee, Cloudlee", category: "unofficial", type: "misc", bitmap: true, vector: false, creator: "CST1229", textureCreator: "CST1229", fullName: "Libera Chat Fish" },
     	balloon: { category: "unofficial", realName: "Partyee", type: "misc", bitmap: true, vector: true, creator: "JackyBorderCollie's sister", textureCreator: "JackyBorderCollie", vectorTextureCreator: "JackyBorderCollie", fullName: "Balloon Fish" },
 	
-	roket: { role: "Dealing with Mineral Fish haters", category: "unofficial", type: "oc", bitmap: true, vector: true, creator: "roketH77", textureCreator: "roketH77", vectorTextureCreator: "roketH77", fullName: "(>Roket Fish" },
+	roket: { role: "Dealing with Mineral Fish haters", category: "unofficial", type: "oc", bitmap: true, vector: true, creator: "roketH77", textureCreator: "roketH77", vectorTextureCreator: "roketH77", fullName: "Roket Fish" },
 	marc92020: { role: "Helping Roket Fish deal with Mineral Fish haters", category: "unofficial", type: "oc", bitmap: true, vector: true, creator: "-gge", textureCreator: "Marc92020", vectorTextureCreator: "-gge", fullName: "Marc92020 Fish" },
 	cyruscarrasco15263: { category: "unofficial", type: "oc", bitmap: false, vector: true, creator: "-gge", vectorTextureCreator: "-gge", fullName: "CyrusCarrasco15263 Fish" },
 	dog: { realName: "Jackyee", category: "unofficial", type: "oc", bitmap: false, vector: true, creator: "-gge", vectorTextureCreator: "-gge", fullName: "Jacky Fish" },
