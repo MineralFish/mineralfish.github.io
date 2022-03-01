@@ -99,7 +99,7 @@ export const fishList = {
 	commandite: { category: "unofficial", type: "mcblocks", bitmap: true, vector: false, creator: "LandonHarter", textureCreator: "LandonHarter", fullName: "Commandite Fish" },
 	netherrack: { category: "unofficial", type: "mcblocks", bitmap: false, vector: true, creator: "LandonHarter", fullName: "Netherrack Fish" },
 	purpur: { category: "unofficial", type: "mcblocks", bitmap: false, vector: true, creator: "LandonHarter", fullName: "Purpur Fish" },
-	wooden: { role: "Telling people when something technically isn't a mineral fish", category: "unofficial", type: "mcblocks", bitmap: true, vector: false, creator: "PATSATDAT", textureCreator: "JackyBorderCollie", fullName: "Wooden Fish", smooth: true },
+	wooden: { role: "Telling people when something technically isn't a mineral fish", category: "unofficial", type: "mcblocks", bitmap: true, vector: false, creator: "PATSATDAT", textureCreator: "JackyBorderCollie", fullName: "Wooden Fish" },
 	
 	
 	apple: { realName: "Watchee", role: "Test topics", category: "unofficial", type: "mcitems", bitmap: true, vector: true, creator: "JackyBorderCollie", textureCreator: "JackyBorderCollie", fullName: "Apple Fish" },
