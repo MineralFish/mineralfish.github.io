@@ -70,6 +70,7 @@ export const fishList = {
 	chicken: { realName: "Bawkee", role: "Proposing articles to be featured", category: "technicallyofficial", type: "mcmobs", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Chicken Fish" },
 	wheat: { realName: "Grainee", role: "Double quoting", category: "technicallyofficial", type: "mcitems", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Wheat Fish" },
 	cookie: { realName: "Pastree", category: "technicallyofficial", type: "mcitems", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Cookie Fish" },
+	prismarineshard: { category: "unofficial", type: "mcitems", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Prismarine Shart Fish" },
 	pig: { realName: "Oinkee", role: "Shops", category: "technicallyofficial", type: "mcmobs", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Pig Fish" },
 	cow: { realName: "Bullee", role: "Scratch Wiki helper", category: "technicallyofficial", type: "mcmobs", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Cow Fish" },
 	mooshroom: { realName: "Mooshee", role: "Proposing studios to be featured", category: "technicallyofficial", type: "mcmobs", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Mooshroom Fish" },
