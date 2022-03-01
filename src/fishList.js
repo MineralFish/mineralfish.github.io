@@ -66,7 +66,7 @@ export const fishList = {
 	cookedmutton: { realName: "Ramsee", category: "technicallyofficial", type: "mcitems", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Cooked Mutton Fish" },
 	paper: { realName: "Artee", category: "technicallyofficial", type: "mcitems", bitmap: true, vector: true, creator: "-gge", textureCreator: "-gge", vectorTextureCreator: "JackyBorderCollie", fullName: "Paper Fish" },
 	potato: { realName: "Spudee", category: "technicallyofficial", type: "mcitems", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Potato Fish" },
-	slimeball: { realName: "Slimee", category: "technicallyofficial", type: "mcitems", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Slimeball Fish" },
+	slimeball: { realName: "Slimee", category: "technicallyofficial", type: "mcitems", bitmap: true, vector: true, creator: "-gge", textureCreator: "-gge", vectorTextureCreator: "JackyBorderCollie", fullName: "Slimeball Fish" },
 	chargedcreeper: { category: "technicallyofficial", type: "mcmobs", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Charged Creeper Fish" },
 	chicken: { realName: "Bawkee", role: "Proposing articles to be featured", category: "technicallyofficial", type: "mcmobs", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Chicken Fish" },
 	wheat: { realName: "Grainee", role: "Double quoting", category: "technicallyofficial", type: "mcitems", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Wheat Fish" },
