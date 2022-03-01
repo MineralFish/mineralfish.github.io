@@ -2,6 +2,7 @@ name: build-site
 on:
   push:
     branches: [ master ]
+  workflow_dispatch:
 jobs:
   build-site:
     runs-on: ubuntu-latest
