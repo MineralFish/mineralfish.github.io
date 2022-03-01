@@ -28,12 +28,6 @@ jobs:
           name: built-site
           path: public/
       
-      - name: Commit and push
-        uses: EndBug/add-and-commit@v8
-        with:
-          message: 'Build site'
-          push: true
-      
       - name: Checkout to build
         uses: actions/checkout@v2
         with:
@@ -49,10 +43,4 @@ jobs:
         with:
           message: Build site
           push: true
-          
-      - name: Deploy 
-        uses: JamesIves/github-pages-deploy-action@v4.2.5
-        with:
-          branch: build
-          folder: /
 
