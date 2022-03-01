@@ -90,7 +90,7 @@ export const fishList = {
 	jackolantern: { category: "unofficial", type: "mcblocks", bitmap: true, vector: false, creator: "roketH77", textureCreator: "roketH77", fullName: "Jack-O-Lantern Fish" },
 	magma: { realName: "Mayami", role: "Deleting stuff", category: "unofficial", type: "mcblocks", bitmap: true, vector: true, creator: "-TWILIGHTMISTY-", textureCreator: "CST1229", fullName: "Magma (Block) Fish", vectorTextureCreator: "-TWILIGHTMISTY-" },
 	beacon: { category: "unofficial", type: "mcblocks", bitmap: true, vector: true, creator: "-TWILIGHTMISTY-", textureCreator: "-gge", fullName: "Beacon Fish" },
-	chest: { category: "unofficial", type: "mcblocks", bitmap: true, vector: false, creator: "-TWILIGHTMISTY-", textureCreator: "-Quantum_Studios-", fullName: "Chest Fish" },
+	chest: { category: "unofficial", type: "mcblocks", bitmap: true, vector: false, creator: "-TWILIGHTMISTY-", textureCreator: "-gge", fullName: "Chest Fish" },
 	endrod: { category: "unofficial", type: "mcblocks", bitmap: true, vector: true, creator: "LandonHarter", textureCreator: "-gge", fullName: "End Rod Fish" },
 	glowstone: { category: "unofficial", type: "mcblocks", bitmap: true, vector: true, creator: "LandonHarter", textureCreator: "-gge", fullName: "Glowstone Fish" },
 	obsidian: { realName: "Portalee", role: "Large images", category: "unofficial", type: "mcblocks", bitmap: true, vector: false, creator: "TheGlassPenguin", textureCreator: "TheGlassPenguin", fullName: "Obsidian Fish" },
