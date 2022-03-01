@@ -1,0 +1,58 @@
+name: build-site
+on:
+  push:
+    branches: [ master ]
+jobs:
+  build-site:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: 'master'
+      
+      - name: Install
+        run: npm install
+        
+      - name: Build
+        run: npm run build
+      
+      - name: Upload artifact
+      - uses: actions/upload-artifact@v2
+        with:
+          name: built-site
+          path: public/
+      
+      - name: Commit and push
+        uses: EndBug/add-and-commit@v8
+        with:
+          message: 'Build site'
+          push: true
+      
+      - name: Checkout to build
+        uses: actions/checkout@v2
+        with:
+          ref: 'build'
+      
+      - name: Download artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: built-site
+          path: /
+      
+      - name: Commit and push 2
+        uses: EndBug/add-and-commit@v8
+        with:
+          message: Build site
+          push: true
+          
+      - name: Deploy 
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
+        with:
+          branch: build
+          folder: /
