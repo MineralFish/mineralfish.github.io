@@ -1,11 +1,12 @@
 <script>
 	import { fishList, strings, getString } from "./fishList.js";
 	export { fishList, strings, getString };
+	export let version;
 </script>
 
 <main>
 	<h1>2022 Mifernian Census</h1>
-	Version 1.0.1<br />
+	Version {version}<br />
 	(name idea by LandonHarter)<br /><br />
 	<table>
 		<thead>
