@@ -155,6 +155,8 @@ export const fishList = {
 	potassium: { category: "unofficial", type: "misc", bitmap: true, vector: false, creator: "Scratchbeginner5669", textureCreator: "Scratchbeginner5669", fullName: "Potassium Fish" },
 	liberachat: { role: "Unmoderated chat", realName: "Nopee, Cordlee, Redlee, Twerlee, Mailee, Cloudlee", category: "unofficial", type: "misc", bitmap: true, vector: false, creator: "CST1229", textureCreator: "CST1229", fullName: "Libera Chat Fish" },
     	balloon: { category: "unofficial", realName: "Partyee", type: "misc", bitmap: true, vector: true, creator: "JackyBorderCollie's sister", textureCreator: "JackyBorderCollie", vectorTextureCreator: "JackyBorderCollie", fullName: "Balloon Fish" },
+	ocular: { category: "unofficial", type: "misc", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Ocular Fish" },
+	ocularalt: { category: "unofficial", type: "misc", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Ocular Fish (Alt sprite)" },
 	
 	roket: { role: "Dealing with Mineral Fish haters", category: "unofficial", type: "oc", bitmap: true, vector: true, creator: "roketH77", textureCreator: "roketH77", vectorTextureCreator: "roketH77", fullName: "Roket Fish" },
 	marc92020: { role: "Helping Roket Fish deal with Mineral Fish haters", category: "unofficial", type: "oc", bitmap: true, vector: true, creator: "-gge", textureCreator: "Marc92020", vectorTextureCreator: "-gge", fullName: "Marc92020 Fish" },
