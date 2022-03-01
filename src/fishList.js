@@ -65,7 +65,7 @@ export const fishList = {
 	mutton: { realName: "Ramee", category: "technicallyofficial", type: "mcitems", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Mutton Fish" },
 	cookedmutton: { realName: "Ramsee", category: "technicallyofficial", type: "mcitems", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Cooked Mutton Fish" },
 	paper: { realName: "Artee", category: "technicallyofficial", type: "mcitems", bitmap: true, vector: true, creator: "-gge", textureCreator: "-gge", vectorTextureCreator: "JackyBorderCollie", fullName: "Paper Fish" },
-	potato: { realName: "Spudee", category: "technicallyofficial", type: "mcitems", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Potato Fish" },
+	potato: { realName: "Spudee", category: "technicallyofficial", type: "mcitems", bitmap: true, vector: true, creator: "-gge", textureCreator: "-gge", vectorTextureCreator: "JackyBorderCollie", fullName: "Potato Fish" },
 	slimeball: { realName: "Slimee", category: "technicallyofficial", type: "mcitems", bitmap: true, vector: true, creator: "-gge", textureCreator: "-gge", vectorTextureCreator: "JackyBorderCollie", fullName: "Slimeball Fish" },
 	chargedcreeper: { category: "technicallyofficial", type: "mcmobs", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Charged Creeper Fish" },
 	chicken: { realName: "Bawkee", role: "Proposing articles to be featured", category: "technicallyofficial", type: "mcmobs", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Chicken Fish" },
@@ -75,7 +75,7 @@ export const fishList = {
 	pig: { realName: "Oinkee", role: "Shops", category: "technicallyofficial", type: "mcmobs", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Pig Fish" },
 	cow: { realName: "Bullee", role: "Scratch Wiki helper", category: "technicallyofficial", type: "mcmobs", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Cow Fish" },
 	mooshroom: { realName: "Mooshee", role: "Proposing studios to be featured", category: "technicallyofficial", type: "mcmobs", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Mooshroom Fish" },
-	air: { role: "Used in Mineral Fish pixel art", category: "technicallyofficial", type: "misc", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Air Fish" },
+	air: { role: "Used in Mineral Fish pixel art", category: "technicallyofficial", type: "misc", bitmap: true, vector: true, creator: "-gge", textureCreator: "-gge", vectorTextureCreator: "-gge", fullName: "Air Fish" },
 	
 	
 	flint: { realName: "Redundee", role: "Duplicate topics", category: "semiofficial", type: "mineral", bitmap: true, vector: true, creator: "Pianostar4", textureCreator: "-gge", fullName: "Flint Fish" },
