@@ -2,7 +2,11 @@
 
 Might be mineral fish site in future, idk. Currently just a fish list. Made with Svelte. Built version (used at mineralfish.github.io) at the build branch. Build steps and original README below.
 
+ 
+
 ---
+
+ 
 
 *Psst — looking for a more complete solution? Check out [SvelteKit](https://kit.svelte.dev), the official framework for building web applications of all sizes, with a beautiful development experience and flexible filesystem-based routing.*
 
