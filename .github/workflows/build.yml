@@ -43,5 +43,16 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: built-site
-          path: /
       
+      - name: Commit and push 2
+        uses: EndBug/add-and-commit@v8
+        with:
+          message: Build site
+          push: true
+          
+      - name: Deploy 
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
+        with:
+          branch: build
+          folder: /
+
