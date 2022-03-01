@@ -1,7 +1,8 @@
 # mineralfish.github.io
 
 Might be mineral fish site in future, idk. Currently just a fish list. Made with Svelte. Built version (used at mineralfish.github.io) at the build branch. Build steps and original README below.
-
+<br>
+![OfFISHial Mineral Fish Site](https://github.com/MineralFish/mineralfish.github.io/blob/master/public/assets/offishial%20button.png?raw=true)
  
 
 ---
