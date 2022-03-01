@@ -40,6 +40,7 @@ table.compact tr>td {
 tr>th {
     background-color: #eaecf0;
     text-align: center;
+	z-index: 2;
 }
 
 tr>td {
@@ -61,7 +62,19 @@ table>thead>tr>th {
 }
 
 .fish-bitmap {
-	min-width: 32px;
-    max-width: 48px;
+	max-width: 48px;
     height: auto;
+}
+
+.fish-image {
+	transition: transform 0.03s cubic-bezier(0, 0, 0, 2);
+}
+.fish-bitmap.pixelated:hover {
+	transform: scale(3);
+}
+.fish-bitmap:not(.pixelated):hover {
+	transform: scale(2);
+}
+.fish-vector:hover {
+	transform: scale(1.5);
 }

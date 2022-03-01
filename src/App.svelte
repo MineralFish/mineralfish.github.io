@@ -28,12 +28,14 @@
 				<td>{fishList[fish].fullName}</td>
 				<td>
 					{#if fishList[fish].bitmap}
-						<img
-							class="fish-bitmap"
-							class:pixelated={!fishList[fish].smooth}
-							src="/assets/fish/{fish}.png"
-							alt={fishList[fish].fullName}
-						/>
+						<div class="fish-bitmap-container">
+							<img
+								class="fish-image fish-bitmap"
+								class:pixelated={!fishList[fish].smooth}
+								src="/assets/fish/{fish}.png"
+								alt={fishList[fish].fullName}
+							/>
+						</div>
 					{:else}
 						<i>N/A</i>
 					{/if}
@@ -41,7 +43,7 @@
 				<td>
 					{#if fishList[fish].vector}
 						<img
-							class="fish-vector"
+							class="fish-image fish-vector"
 							width="48"
 							height="auto"
 							src="/assets/fish/vector/{fish}.svg"

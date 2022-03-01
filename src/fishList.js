@@ -170,7 +170,7 @@ export const fishList = {
 	orb: { realName: "Mutenee", role: "Conflict prevention", category: "unofficial", type: "crossover", bitmap: true, vector: true, creator: "LandonHarter", textureCreator: "LandonHarter", fullName: "Orb Fish" },
 	orb_16x16: { realName: "Mutenee", role: "Conflict prevention", category: "unofficial", type: "crossover", bitmap: true, vector: false, creator: "LandonHarter", textureCreator: "JackyBorderCollie", fullName: "Orb Fish (16x16 sprite)" },
 	amogus: { realName: "Susee", role: "Sus things and impostor Mineral Fish", category: "unofficial", type: "crossover", bitmap: true, vector: false, creator: "roketH77", textureCreator: "roketH77", fullName: "Among Fish" },
-	among: { realName: "Susee", role: "Sus things and impostor Mineral Fish", category: "unofficial", type: "crossover", bitmap: true, vector: false, creator: "roketH77", textureCreator: "roketH77", fullName: "Among Fish (Old sprite)" },
+	among: { realName: "Susee", role: "Sus things and impostor Mineral Fish", category: "unofficial", type: "crossover", bitmap: true, vector: false, creator: "roketH77", textureCreator: "roketH77", fullName: "Among Fish (Old sprite)", smooth: true },
 	/* omg non-ascii character that is illegal /s */
 	nausicaa: { category: "unofficial", type: "crossover", bitmap: true, vector: true, creator: "-TWILIGHTMISTY-", textureCreator: "-gge", fullName: "Nausicaä Fish" },
 	babanana: { category: "unofficial", type: "crossover", bitmap: true, vector: false, creator: "LandonHarter", textureCreator: "LandonHarter", fullName: "Babanana Fish" },
@@ -178,7 +178,7 @@ export const fishList = {
 	hatsunemiku: { category: "unofficial", type: "crossover", bitmap: true, vector: false, creator: "roketH77", textureCreator: "roketH77", fullName: "Hatsune Miku Fish" },
 	appel: { category: "unofficial", type: "crossover", bitmap: true, vector: true, creator: "CST1229", textureCreator: "CST1229", fullName: "Appel Fish", vectorTextureCreator: "CST1229" },
 	camilo: { category: "unofficial", type: "crossover", bitmap: true, vector: false, creator: "roketH77", textureCreator: "roketH77", fullName: "Camilo Fish" },
-	infinitygauntlet: { category: "unofficial", type: "crossover", bitmap: true, vector: false, creator: "-TWILIGHTMISTY-", textureCreator: "-TWILIGHTMISTY-", fullName: "Infinity Gauntlet Fish" },
+	infinitygauntlet: { category: "unofficial", type: "crossover", bitmap: true, vector: false, creator: "-TWILIGHTMISTY-", textureCreator: "-TWILIGHTMISTY-", fullName: "Infinity Gauntlet Fish", smooth: true },
 	nofish: { category: "unofficial", type: "crossover", bitmap: true, vector: false, creator: "roketH77", textureCreator: "roketH77", fullName: "No-fish" },
 	olivee: { realName: "Olivee", role: "Good, making and editing pages on the Scratch/MF Wiki", category: "unofficial", type: "crossover", bitmap: true, vector: false, creator: "gilbert_given_TBG", textureCreator: "gilbert_given_TBG", fullName: "Origami Fish" },
 	ollee: { realName: "Ollee", role: "Evil, making and editing pages on the Scratch/MF Wiki", category: "unofficial", type: "crossover", bitmap: true, vector: false, creator: "gilbert_given_TBG", textureCreator: "gilbert_given_TBG", fullName: "Origami Fish" },
