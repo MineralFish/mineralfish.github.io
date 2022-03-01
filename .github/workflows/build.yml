@@ -38,9 +38,11 @@ jobs:
         with:
           name: built-site
       
-      - name: Commit and push 2
+      - name: Commit and push
         uses: EndBug/add-and-commit@v8
         with:
           message: Build site
           push: true
+          committer_name: Build action
+          committer_email: ''
 
