@@ -100,6 +100,7 @@ export const fishList = {
 	netherrack: { category: "unofficial", type: "mcblocks", bitmap: false, vector: true, creator: "LandonHarter", fullName: "Netherrack Fish" },
 	purpur: { category: "unofficial", type: "mcblocks", bitmap: false, vector: true, creator: "LandonHarter", fullName: "Purpur Fish" },
 	wooden: { role: "Telling people when something technically isn't a mineral fish", category: "unofficial", type: "mcblocks", bitmap: true, vector: false, creator: "PATSATDAT", textureCreator: "JackyBorderCollie", fullName: "Wooden Fish" },
+	notfound: { realName: "Errorree", category: "unofficial", type: "mcblocks", bitmap: true, vector: false, creator: "JackyBorderCollie", textureCreator: "JackyBorderCollie", fullName: "Not Found Fish" },
 	
 	
 	apple: { realName: "Watchee", role: "Test topics", category: "unofficial", type: "mcitems", bitmap: true, vector: true, creator: "JackyBorderCollie", textureCreator: "JackyBorderCollie", fullName: "Apple Fish" },
