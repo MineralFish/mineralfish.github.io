@@ -121,6 +121,7 @@ export const fishList = {
 	sweetberry: { category: "unofficial", type: "mcitems", bitmap: true, vector: true, creator: "LandonHarter", textureCreator: "-gge", fullName: "Sweet Berry Fish" },
 	firework: { category: "unofficial", type: "mcitems", bitmap: true, vector: true, creator: "LandonHarter", textureCreator: "-gge", fullName: "Firework Fish" },
 	chorus: { category: "unofficial", type: "mcitems", bitmap: true, vector: true, creator: "LandonHarter", textureCreator: "-gge", fullName: "Chorus Fish" },
+	prismarineshard: { category: "unofficial", type: "mcitems", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Prismarine Shard Fish" },
 	
 	creeper: { category: "unofficial", type: "mcmobs", bitmap: true, vector: false, creator: "-TWILIGHTMISTY-", textureCreator: "-gge", fullName: "Creeper Fish" },
 	enderman: { category: "unofficial", type: "mcmobs", bitmap: true, vector: false, creator: "TheGlassPenguin", textureCreator: "TheGlassPenguin", fullName: "Enderman Fish" },
@@ -151,7 +152,7 @@ export const fishList = {
 	alenn: { category: "unofficial", type: "misc", bitmap: true, vector: true, creator: "JackyBorderCollie", textureCreator: "JackyBorderCollie", vectorTextureCreator: "JackyBorderCollie", fullName: "Alenn Fish" },
 	swimmy: { category: "unofficial", type: "misc", bitmap: true, vector: true, creator: "JackyBorderCollie", textureCreator: "JackyBorderCollie", vectorTextureCreator: "JackyBorderCollie", fullName: "Swimmy Fish" },
 	brownie: { category: "unofficial", type: "misc", bitmap: false, vector: true, creator: "-TWILIGHTMISTY-", vectorTextureCreator: "LandonHarter (based off of -TWILILIGHTMISTY-'s vector)", fullName: "Brownie Fish" },
-	rainbowstone: { category: "unofficial", type: "misc", bitmap: true, vector: true, creator: "lapisi", textureCreator: "lapisi", fullName: "Rainbowstone Fish" },
+	rainbowstone: { category: "unofficial", type: "misc", bitmap: true, vector: true, creator: "lapisi", textureCreator: "-gge", fullName: "Rainbowstone Fish" },
 	potassium: { category: "unofficial", type: "misc", bitmap: true, vector: false, creator: "Scratchbeginner5669", textureCreator: "Scratchbeginner5669", fullName: "Potassium Fish" },
 	liberachat: { role: "Unmoderated chat", realName: "Nopee, Cordlee, Redlee, Twerlee, Mailee, Cloudlee", category: "unofficial", type: "misc", bitmap: true, vector: false, creator: "CST1229", textureCreator: "CST1229", fullName: "Libera Chat Fish" },
     	balloon: { category: "unofficial", realName: "Partyee", type: "misc", bitmap: true, vector: true, creator: "JackyBorderCollie's sister", textureCreator: "JackyBorderCollie", vectorTextureCreator: "JackyBorderCollie", fullName: "Balloon Fish" },
