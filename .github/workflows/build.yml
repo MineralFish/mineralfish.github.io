@@ -43,6 +43,3 @@ jobs:
         with:
           message: Build site
           push: true
-          author_name: Build action
-          author_email: ''
-
