@@ -1,0 +1,7 @@
+# Mifernian Census Contributing Guidelines
+If you want to contribute to the 2022 Mifernian Census, make sure to follow these guidelines, so you can see what we want on the Census.
+## Editing a fish
+If a fish doesn't have the right info, or the info is old, you can edit it, but make sure to follow the **Fish Editing Guidelines**.
+1. **Verify the info:** Before you add or change any info on the fish, make sure it is the latest info, and it's true. We don't want false and old informations on the Census. If you are adding info for your own fish, then please post the info on the Mineral Fish Scratch topic, Mineral Fish forums, Mineral Fish wiki, etc, etc, so we can verify that it's true.
+2. **Keep the roles short:** When you add or change a role on a fish, don't explain the role in, like, 5 sentences. For example, Emerald Fish's role is stopping advertisements. What we want, is only the name of the role, so Emerald Fish's role is written like this: Advertising. What we don't want, is this: Emerald Fish stops advertisements on Scratch, but ignores places where it's allowed.
+3. **Use corresponding vectors/bitmaps:** When adding vectors/bitmaps, use the bitmap/vector (let's call them just images) that corresponds the fish. For example, Copper Fish's bitmap is Copper Fish. Now, what about the Vector? What we want, is a vector version of the fish's bitmap. If it doesn't exist, just don't add it. What we don't want, is, for example, a Lapis Fish vector on Copper Fish's vector field.
