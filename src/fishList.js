@@ -52,6 +52,7 @@ export const fishList = {
 	newercopper: { category: "technicallyofficial", type: "mineral", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Newer Copper Fish" },
 	newiron: { category: "technicallyofficial", type: "mineral", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "New Iron Fish" },
 	neweriron: { category: "technicallyofficial", type: "mineral", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Newer Iron Fish" },
+	newgolden: { category: "technicallyofficial", type: "mineral", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "New Golden Fish" },
 	newergolden: { category: "technicallyofficial", type: "mineral", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Newer Golden Fish" },
 	
 	glass: { realName: "Glasee", category: "technicallyofficial", type: "mcblocks", bitmap: true, vector: true, creator: "-gge", textureCreator: "-gge", vectorTextureCreator: "JackyBorderCollie", fullName: "Glass Fish" },
