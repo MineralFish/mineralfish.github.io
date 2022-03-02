@@ -14,6 +14,7 @@ export const strings = {
 	oc: "OC fish",
 	misc: "Miscellaneous",
 	crossover: "Fish from other franchises",
+	special: "Special Fish",
 	
 	/* Headings */
 	fullName: "Name",
