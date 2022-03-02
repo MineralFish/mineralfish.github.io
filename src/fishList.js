@@ -189,7 +189,7 @@ export const fishList = {
 	cube: { realName: "Dashee", role: "Rating Geometry Dash levels", category: "unofficial", type: "crossover", bitmap: true, vector: false, creator: "JackyBorderCollie", textureCreator: "JackyBorderCollie", fullName: "GD Cube Fish", },
 	spike: { realName: "Crashee", role: "Making Geometry Dash levels harder", category: "unofficial", type: "crossover", bitmap: true, vector: false, creator: "JackyBorderCollie", textureCreator: "JackyBorderCollie", fullName: "GD Spike Fish", },
 	
-	air: { role: "Used in Mineral Fish pixel art", category: "special", type: "misc", bitmap: true, vector: true, creator: "-gge", textureCreator: "-gge", vectorTextureCreator: "-gge", fullName: "Air Fish" },
+	air: { role: "Used in Mineral Fish pixel art", category: "technicallyofficial", type: "special", bitmap: true, vector: true, creator: "-gge", textureCreator: "-gge", vectorTextureCreator: "-gge", fullName: "Air Fish" },
 };
 export function getString(str) {
 	return strings[str] || str;
