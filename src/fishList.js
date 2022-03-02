@@ -75,9 +75,7 @@ export const fishList = {
 	prismarineshard: { category: "unofficial", type: "mcitems", bitmap: true, vector: true, creator: "-gge", textureCreator: "-gge", vectorTextureCreator: "JackyBorderCollie", fullName: "Prismarine Shard Fish" },
 	pig: { realName: "Oinkee", role: "Shops", category: "technicallyofficial", type: "mcmobs", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Pig Fish" },
 	cow: { realName: "Bullee", role: "Scratch Wiki helper", category: "technicallyofficial", type: "mcmobs", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Cow Fish" },
-	mooshroom: { realName: "Mooshee", role: "Proposing studios to be featured", category: "technicallyofficial", type: "mcmobs", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Mooshroom Fish" },
-	air: { role: "Used in Mineral Fish pixel art", category: "technicallyofficial", type: "misc", bitmap: true, vector: true, creator: "-gge", textureCreator: "-gge", vectorTextureCreator: "-gge", fullName: "Air Fish" },
-	
+	mooshroom: { realName: "Mooshee", role: "Proposing studios to be featured", category: "technicallyofficial", type: "mcmobs", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Mooshroom Fish" },	
 	
 	flint: { realName: "Redundee", role: "Duplicate topics", category: "semiofficial", type: "mineral", bitmap: true, vector: true, creator: "Pianostar4", textureCreator: "-gge", fullName: "Flint Fish" },
 	
@@ -191,6 +189,7 @@ export const fishList = {
 	cube: { realName: "Dashee", role: "Rating Geometry Dash levels", category: "unofficial", type: "crossover", bitmap: true, vector: false, creator: "JackyBorderCollie", textureCreator: "JackyBorderCollie", fullName: "GD Cube Fish", },
 	spike: { realName: "Crashee", role: "Making Geometry Dash levels harder", category: "unofficial", type: "crossover", bitmap: true, vector: false, creator: "JackyBorderCollie", textureCreator: "JackyBorderCollie", fullName: "GD Spike Fish", },
 	
+	air: { role: "Used in Mineral Fish pixel art", category: "special", type: "misc", bitmap: true, vector: true, creator: "-gge", textureCreator: "-gge", vectorTextureCreator: "-gge", fullName: "Air Fish" },
 };
 export function getString(str) {
 	return strings[str] || str;
