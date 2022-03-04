@@ -121,6 +121,7 @@ export const fishList = {
 	firework: { category: "unofficial", type: "mcitems", bitmap: true, vector: true, creator: "LandonHarter", textureCreator: "-gge", fullName: "Firework Fish" },
 	chorus: { category: "unofficial", type: "mcitems", bitmap: true, vector: true, creator: "LandonHarter", textureCreator: "-gge", fullName: "Chorus Fish" },
 	prismarineshard: { category: "unofficial", type: "mcitems", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Prismarine Shard Fish" },
+	stick: { category: "unofficial", type: "mcitems", bitmap: true, vector: false, creator: "LandonHarter", textureCreator: "LandonHarter", fullName: "Stick Fish" },
 	
 	creeper: { category: "unofficial", type: "mcmobs", bitmap: true, vector: true, creator: "-TWILIGHTMISTY-", textureCreator: "-gge", vectorTextureCreator: "JackyBorderCollie", fullName: "Creeper Fish" },
 	enderman: { category: "unofficial", type: "mcmobs", bitmap: true, vector: false, creator: "TheGlassPenguin", textureCreator: "TheGlassPenguin", fullName: "Enderman Fish" },
