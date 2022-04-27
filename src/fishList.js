@@ -191,6 +191,9 @@ export const fishList = {
 	spike: { realName: "Crashee", role: "Making Geometry Dash levels harder", category: "unofficial", type: "crossover", bitmap: true, vector: false, creator: "JackyBorderCollie", textureCreator: "JackyBorderCollie", fullName: "GD Spike Fish", },
 	
 	air: { role: "Used in Mineral Fish pixel art", category: "technicallyofficial", type: "special", bitmap: true, vector: true, creator: "-gge", textureCreator: "-gge", vectorTextureCreator: "-gge", fullName: "Air Fish" },
+	trophy: { role: "Reward for Mineral Fish Forums scavenger hunt", category: "unofficial", type: "special", bitmap: true, vector: false, creator: "JackyBorderCollie", textureCreator: "CST1229", fullName: "Trophy Fish" },
+	trophyhoriz: { role: "Reward for Mineral Fish Forums scavenger hunt", category: "unofficial", type: "special", bitmap: true, vector: false, creator: "JackyBorderCollie", textureCreator: "CST1229", fullName: "Tophy Fish (Horizontal sprite)" },
+	trophysmall: { role: "Reward for Mineral Fish Forums scavenger hunt", category: "unofficial", type: "special", bitmap: true, vector: false, creator: "JackyBorderCollie", textureCreator: "CST1229", fullName: "Trophy Fish (16x16 Version)" },
 };
 export function getString(str) {
 	return strings[str] || str;
