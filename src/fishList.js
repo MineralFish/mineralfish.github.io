@@ -60,7 +60,7 @@ export const fishList = {
 	}},
 	netherite: {realName: "Tengreyee", role: "Spamming", category: "official", type: "mineral", bitmap: true, vector: true, creator: "-gge", textureCreator: "-gge", fullName: "Netherite Fish", vectorTextureCreator: "LandonHarter", vectorAlts: {
 		netherite_gge: {creator: "-gge", name: "Alternate vector"},
-		netherite_evil: {creator: "LandonHarter", name: 'Ancient Debris "Tengreyall" Fish'},
+		netherite_evil: {creator: "LandonHarter", name: 'Netherite "Tengreyall" Fish'},
 	}},
 	ancientdebris: {realName: "Tengree", role: "Necroposting", category: "official", type: "mineral", bitmap: true, vector: true, creator: "-gge", textureCreator: "-gge", fullName: "Ancient Debris Fish", vectorTextureCreator: "LandonHarter", vectorAlts: {
 		ancientdebris_gge: {creator: "-gge", name: "Alternate vector"},
