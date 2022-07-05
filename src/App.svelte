@@ -24,70 +24,112 @@
 			</tr>
 		</thead>
 		{#each Object.keys(fishList) as fish}
+			{@const obj = fishList[fish]}
 			<tr>
-				<td>{fishList[fish].fullName}</td>
+				<td>{obj.fullName}</td>
 				<td>
-					{#if fishList[fish].bitmap}
+					{#if obj.bitmap}
 						<div class="fish-bitmap-container">
 							<img
 								class="fish-image fish-bitmap"
-								class:pixelated={!fishList[fish].smooth}
+								class:pixelated={!obj.smooth}
 								src="/assets/fish/{fish}.png"
-								alt={fishList[fish].fullName}
+								alt={obj.fullName}
 							/>
 						</div>
 					{:else}
 						<i>N/A</i>
 					{/if}
+					{#if obj.alts}
+						<details>
+							<summary>Alts</summary>
+							{#each Object.keys(obj.alts) as alt}
+								{@const altObj = obj.alts[alt]}
+								{@const altText = 
+									altObj.name ?
+										(
+											altObj.creator ?
+												(altObj.name)+", by "+(altObj.creator) 
+												: altObj.name
+										)
+									: (
+										altObj.creator ? "by " + altObj.creator : ""
+									)
+								}
+								<img
+									class="fish-image fish-bitmap fish-alt"
+									class:pixelated={!altObj.smooth}
+									src="/assets/fish/{alt}.png"
+									alt={altText}
+									title={altText}
+								/> <br />
+							{/each}
+						</details>
+					{/if}
 				</td>
 				<td>
-					{#if fishList[fish].vector}
+					{#if obj.vector}
 						<img
 							class="fish-image fish-vector"
 							width="48"
 							height="auto"
 							src="/assets/fish/vector/{fish}.svg"
-							alt={fishList[fish].fullName + " vector"}
+							alt={obj.fullName + " vector"}
 						/>
 					{:else}
 						<i>N/A</i>
 					{/if}
+					{#if obj.vectorAlts}
+						<details>
+							<summary>Alts</summary>
+							{#each Object.keys(obj.vectorAlts) as alt}
+								{@const altObj = obj.vectorAlts[alt]}
+								{@const altText = (altObj.name)+", by "+(altObj.creator)}
+								<img
+									class="fish-image fish-vector fish-alt"
+									width="48"
+									height="auto"
+									src="/assets/fish/vector/{alt}.svg"
+									alt={altText}
+									title={altText}
+								/> <br />
+							{/each}
+						</details>
+					{/if}
 				</td>
 				<td>
-					{#if fishList[fish].realName}
-					{fishList[fish].realName}
+					{#if obj.realName}
+					{obj.realName}
 					{:else}
 						Unknown
 					{/if}
 				</td>
 				<td>
-					{#if fishList[fish].role}
-						{fishList[fish].role}
+					{#if obj.role}
+						{obj.role}
 					{:else}
 						Unknown
 					{/if}
 				</td>
-				<td>{getString(fishList[fish].category)}</td>
-				<td>{getString(fishList[fish].type)}</td>
+				<td>{getString(obj.category)}</td>
+				<td>{getString(obj.type)}</td>
 				<td>
-					{#if !(fishList[fish].creator === undefined)}
-						{fishList[fish].creator}
+					{#if !(obj.creator === undefined)}
+						{obj.creator}
 					{:else}
 						Unknown
 					{/if}
 				</td>
 				<td>
-					{#if fishList[fish].textureCreator}
-						{fishList[fish].textureCreator}
+					{#if obj.textureCreator}
+						{obj.textureCreator}
 					{:else}
 						<i>N/A</i>
 					{/if}
 				</td>
 				<td>
-					{#if fishList[fish].vectorTextureCreator}
-						{fishList[fish].vectorTextureCreator}
-					{:else if fishList[fish].vector}
-						LandonHarter
+					{#if obj.vectorTextureCreator}
+						{obj.vectorTextureCreator}
 					{:else}
 						<i>N/A</i>
 					{/if}
