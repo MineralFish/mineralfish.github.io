@@ -35,7 +35,6 @@ export const fishList = {
 	}},
 	emerald: {realName: "Plagee", role: "Advertising", category: "official", type: "mineral", bitmap: true, vector: true, creator: "-gge", textureCreator: "-gge", fullName: "Emerald Fish", vectorTextureCreator: "LandonHarter", vectorAlts: {
 		emerald_gge: {creator: "-gge", name: "Alternate vector"},
-		emerald_evil: {creator: "LandonHarter", name: 'Emerald "Plagall" Fish'},
 	}},
 	lapis: {realName: "Iragee", role: "Flame wars", category: "official", type: "mineral", bitmap: true, vector: true, creator: "-gge", textureCreator: "-gge", fullName: "Lapis Fish", vectorTextureCreator: "LandonHarter", vectorAlts: {
 		lapis_gge: {creator: "-gge", name: "Alternate vector"},
