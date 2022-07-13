@@ -15,6 +15,8 @@ install:
 (in a command prompt)
 ```
 git clone https://github.com/MineralFish/mineralfish.github.io.git
+cd mineralfish.github.io
+npm install
 ```
 (or use your fork. if you use some kind of git gui you should clone the repo from there)
 
