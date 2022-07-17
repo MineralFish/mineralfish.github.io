@@ -109,7 +109,10 @@ export const fishList = {
 	cow: {realName: "Bullee", role: "Scratch Wiki helper", category: "technicallyofficial", type: "mcmobs", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Cow Fish"},
 	mooshroom: {realName: "Mooshee", role: "Proposing studios to be featured", category: "technicallyofficial", type: "mcmobs", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Mooshroom Fish"},
 	air: {role: "Used in Mineral Fish pixel art", category: "technicallyofficial", type: "misc", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Air Fish"},
-
+	ocular: {category: "technicallyofficial", type: "misc", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Ocular Fish", alts: {
+		ocular_alt: {creator: "-gge", name: "Alternate sprite"},
+	}},
+	
 
 	flint: {realName: "Redundee", role: "Duplicate topics", category: "semiofficial", type: "mineral", bitmap: true, vector: true, creator: "Pianostar4", textureCreator: "-gge", fullName: "Flint Fish", vectorTextureCreator: "LandonHarter"},
 
@@ -207,9 +210,6 @@ export const fishList = {
 	potassium: {category: "unofficial", type: "misc", bitmap: true, vector: false, creator: "Scratchbeginner5669", textureCreator: "Scratchbeginner5669", fullName: "Potassium Fish"},
 	liberachat: {role: "Unmoderated chat", realName: "Nopee, Cordlee, Redlee, Twerlee, Mailee, Cloudlee", category: "unofficial", type: "misc", bitmap: true, vector: false, creator: "CST1229", textureCreator: "CST1229", fullName: "Libera Chat Fish"},
 	balloon: {category: "unofficial", realName: "Partyee", type: "misc", bitmap: true, vector: true, creator: "JackyBorderCollie's sister", textureCreator: "JackyBorderCollie", vectorTextureCreator: "JackyBorderCollie", fullName: "Balloon Fish"},
-	ocular: {category: "unofficial", type: "misc", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Ocular Fish", alts: {
-		ocular_alt: {creator: "-gge", name: "Alternate sprite"},
-	}},
 	doodle: {category: "unofficial", type: "misc", bitmap: false, vector: true, creator: "LandonHarter", fullName: "Accidental-Doodle-on-Table Fish", vectorTextureCreator: "LandonHarter", vectorAlts: {
 		doodle_alt: {creator: "LandonHarter", name: "Alternate vector"},
 	}},
