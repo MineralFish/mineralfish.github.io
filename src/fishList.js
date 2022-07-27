@@ -196,7 +196,7 @@ export const fishList = {
 	fullon: {category: "unofficial", type: "misc", bitmap: true, vector: true, creator: "LandonHarter", textureCreator: "LandonHarter", vectorTextureCreator: "JackyBorderCollie", fullName: "Full On Fish"},
 	cloud: {category: "unofficial", type: "misc", bitmap: false, vector: true, creator: "LandonHarter", vectorTextureCreator: "LandonHarter", fullName: "Cloud Fish"},
 	daylight: {category: "unofficial", type: "misc", bitmap: false, vector: true, creator: "LandonHarter", vectorTextureCreator: "LandonHarter", fullName: "Daylight Fish"},
-	moonlight: {category: "unofficial", type: "misc", bitmap: false, vector: true, creator: "LandonHarter", vectorTextureCreator: "LandonHarter", fullName: "Moonlight Fish"},
+	moonlight: {category: "unofficial", type: "misc", bitmap: true, vector: true, creator: "LandonHarter", textureCreator: "JackyBorderCollie", vectorTextureCreator: "LandonHarter", fullName: "Moonlight Fish"},
 	galactic: {category: "unofficial", type: "misc", bitmap: false, vector: true, creator: "Unithlees3", vectorTextureCreator: "LandonHarter", fullName: "Galactic Fish"},
 	holo: {category: "unofficial", type: "misc", bitmap: false, vector: true, creator: "LandonHarter", vectorTextureCreator: "LandonHarter", fullName: "Holo Fish"},
 	kumquat: {category: "unofficial", type: "misc", bitmap: false, vector: true, creator: "LandonHarter", vectorTextureCreator: "LandonHarter", fullName: "Kumquat Fish"},
