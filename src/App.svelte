@@ -1,6 +1,6 @@
 <script>
-	import FishTable from "../src/FishTable.svelte";
-	import FishStats from "../src/FishStats.svelte";
+	import FishTable from "./src/FishTable.svelte";
+	import FishStats from "./src/FishStats.svelte";
 	
 	export let version;
 
