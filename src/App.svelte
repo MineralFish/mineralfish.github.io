@@ -1,140 +1,55 @@
 <script>
-	import { fishList, strings, getString } from "./fishList.js";
-	export { fishList, strings, getString };
 	export let version;
+	
+	import FishTable from "./FishTable.svelte";
+	import FishStats from "./FishStats.svelte";
+
+	let currentTab = "fishlist";
+	const tabs = {
+		fishlist: {
+			component: FishTable,
+			name: "Fish List",
+		},
+		stats: {
+			component: FishStats,
+			name: "Statistics",
+		},
+	}
+
+	function setTab(tab = location.hash.substring(1)) {
+		console.log(tab);
+		currentTab = tabs[tab] ? tab : "fishlist";
+	}
+
+	setTab();
+	window.addEventListener("hashchange", () => setTab());
 </script>
 
 <main>
 	<h1>2022 Mifernian Census</h1>
-	Version {version}<br />
-	(name idea by LandonHarter)<br /><br />
-	<table>
-		<thead>
-			<tr>
-				<th>{getString("fullName")}</th>
-				<th>{getString("bitmap")}</th>
-				<th>{getString("vector")}</th>
-				<th>{getString("realName")}</th>
-				<th>{getString("role")}</th>
-				<th>{getString("category")}</th>
-				<th>{getString("type")}</th>
-				<th>{getString("creator")}</th>
-				<th>{getString("textureCreator")}</th>
-				<th>{getString("vectorTextureCreator")}</th>
-			</tr>
-		</thead>
-		{#each Object.keys(fishList) as fish}
-			{@const obj = fishList[fish]}
-			<tr>
-				<td>{obj.fullName}</td>
-				<td>
-					{#if obj.bitmap}
-						<div class="fish-bitmap-container">
-							<img
-								class="fish-image fish-bitmap"
-								class:pixelated={!obj.smooth}
-								src="/assets/fish/{fish}.png"
-								alt={obj.fullName}
-							/>
-						</div>
-					{:else}
-						<i>N/A</i>
-					{/if}
-					{#if obj.alts}
-						<details>
-							<summary>Alts</summary>
-							{#each Object.keys(obj.alts) as alt}
-								{@const altObj = obj.alts[alt]}
-								{@const altText = 
-									altObj.name ?
-										(
-											altObj.creator ?
-												(altObj.name)+", by "+(altObj.creator) 
-												: altObj.name
-										)
-									: (
-										altObj.creator ? "by " + altObj.creator : ""
-									)
-								}
-								<img
-									class="fish-image fish-bitmap fish-alt"
-									class:pixelated={!altObj.smooth}
-									src="/assets/fish/{alt}.png"
-									alt={altText}
-									title={altText}
-								/> <br />
-							{/each}
-						</details>
-					{/if}
-				</td>
-				<td>
-					{#if obj.vector}
-						<img
-							class="fish-image fish-vector"
-							width="48"
-							height="auto"
-							src="/assets/fish/vector/{fish}.svg"
-							alt={obj.fullName + " vector"}
-						/>
-					{:else}
-						<i>N/A</i>
-					{/if}
-					{#if obj.vectorAlts}
-						<details>
-							<summary>Alts</summary>
-							{#each Object.keys(obj.vectorAlts) as alt}
-								{@const altObj = obj.vectorAlts[alt]}
-								{@const altText = (altObj.name)+", by "+(altObj.creator)}
-								<img
-									class="fish-image fish-vector fish-alt"
-									width="48"
-									height="auto"
-									src="/assets/fish/vector/{alt}.svg"
-									alt={altText}
-									title={altText}
-								/> <br />
-							{/each}
-						</details>
-					{/if}
-				</td>
-				<td>
-					{#if obj.realName}
-					{obj.realName}
-					{:else}
-						Unknown
-					{/if}
-				</td>
-				<td>
-					{#if obj.role}
-						{obj.role}
-					{:else}
-						Unknown
-					{/if}
-				</td>
-				<td>{getString(obj.category)}</td>
-				<td>{getString(obj.type)}</td>
-				<td>
-					{#if !(obj.creator === undefined)}
-						{obj.creator}
-					{:else}
-						Unknown
-					{/if}
-				</td>
-				<td>
-					{#if obj.textureCreator}
-						{obj.textureCreator}
-					{:else}
-						<i>N/A</i>
-					{/if}
-				</td>
-				<td>
-					{#if obj.vectorTextureCreator}
-						{obj.vectorTextureCreator}
-					{:else}
-						<i>N/A</i>
-					{/if}
-				</td>
-			</tr>
+	<p>
+		Version {version}<br />
+		(name idea by LandonHarter)
+	</p>
+
+	<p class="tabs">
+		{#each Object.entries(tabs) as tab}
+			<span class="tab">
+				{#if currentTab === tab[0]}
+					<b >{tab[1].name}</b>
+				{:else}
+					<a href="#{tab[0]}">{tab[1].name}</a>
+				{/if}
+			</span>
 		{/each}
-	</table>
+		</p>
+	{#if tabs[currentTab]}
+		<svelte:component this={tabs[currentTab].component}/>
+	{/if}
 </main>
+
+<style>
+	.tab:not(:first-child)::before {
+		content: " | ";
+	}
+</style>

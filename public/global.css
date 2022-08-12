@@ -61,32 +61,3 @@ table>thead>tr>th {
 	transition: top 0.15s ease-in-out;
 	box-shadow: 0 1px 0 #00000044;
 }
-
-.pixelated {
-	image-rendering: pixelated;
-}
-
-.fish-bitmap {
-	max-width: 48px;
-	height: auto;
-}
-
-.fish-image {
-	transition: transform 0.03s cubic-bezier(0, 0, 0, 2);
-}
-
-.fish-bitmap.pixelated:hover {
-	transform: scale(3);
-}
-
-.fish-bitmap:not(.pixelated):hover {
-	transform: scale(2);
-}
-
-.fish-vector:hover {
-	transform: scale(1.5);
-}
-
-.fish-alt {
-	cursor: help;
-}
