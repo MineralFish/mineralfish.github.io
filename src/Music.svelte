@@ -2,38 +2,22 @@
 	import {default as music} from "./data/music.js";
 
 	let selectedSong = null, player = null;
-
-	window.__music = structuredClone(music);
 </script>
 
 {#if selectedSong !== null}
-	<h1 contenteditable on:input={(e) => {
-		window.__music[selectedSong].name = e.target.textContent;
-	}}>{music[selectedSong].name}</h1>
-	<h2>"<span contenteditable on:input={(e) => {
-		window.__music[selectedSong].title = e.target.textContent;
-	}}>{music[selectedSong].title}</span>"</h2>
-{/if}
-<audio bind:this={player} controls={true} src={music[selectedSong]?.url}></audio>
-{#if selectedSong !== null}
 	<img
-		on:click={() => {
-			if (selectedSong >= music.length - 1) return;
-			selectedSong += 1;
-			player.load();
-			player.autoplay = true;
-		}}
-		on:contextmenu|preventDefault={() => {
-			if (selectedSong <= 0) return;
-			selectedSong -= 1;
-			player.load();
-			player.autoplay = true;
-		}}
 		height="400"
 		src={music[selectedSong]?.bg}
 		alt="'Background'"
 	>
 {/if}
+{#if selectedSong !== null}
+	<h1>{music[selectedSong].name}</h1>
+	<h2>"{music[selectedSong].title}"</h2>
+{/if}
+<audio bind:this={player} controls={true} src={music[selectedSong]?.url}></audio>
+
+<br />
 
 <table>
 	<thead>
@@ -73,11 +57,5 @@
 	}
 	.selected {
 		font-weight: bold;
-	}
-	img {
-		position: fixed;
-		right: 1em;
-		top: 50%;
-		transform: translateY(-50%);
 	}
 </style>
