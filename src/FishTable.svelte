@@ -1,5 +1,5 @@
 <script>
-	import { fishList, getString } from "./lib/fishList.js";
+	import {default as fishList, getString} from "./data/fishList.js";
 </script>
 
 <table>

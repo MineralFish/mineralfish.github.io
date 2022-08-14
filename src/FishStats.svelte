@@ -1,6 +1,6 @@
 <script>
-	import {getString} from "./lib/fishList.js";
-	import * as stats from "./lib/fishStats.js";
+	import {getString} from "./data/fishList.js";
+	import * as stats from "./data/fishStats.js";
 	
 	import Chart from "./lib/Chart.svelte";
 

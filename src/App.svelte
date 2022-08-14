@@ -1,6 +1,7 @@
 <script>
 	import FishTable from "./FishTable.svelte";
 	import FishStats from "./FishStats.svelte";
+	import Music from "./Music.svelte";
 	
 	export let version;
 
@@ -14,10 +15,13 @@
 			component: FishStats,
 			name: "Statistics",
 		},
+		music: {
+			component: Music,
+			name: "Mineral Fish Soundtracks",
+		},
 	}
 
 	function setTab(tab = location.hash.substring(1)) {
-		console.log(tab);
 		currentTab = tabs[tab] ? tab : "fishlist";
 	}
 

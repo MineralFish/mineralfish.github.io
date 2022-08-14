@@ -28,7 +28,7 @@ export const strings = {
 	realName: "Real name",
 	role: "Role",
 };
-export const fishList = {
+export default {
 	copper: {realName: "Tickee", role: "Miscellaneous annoyances", category: "official", type: "mineral", bitmap: true, vector: true, creator: "-gge", textureCreator: "-gge", fullName: "Copper Fish", vectorTextureCreator: "LandonHarter", vectorAlts: {
 		copper_gge: {creator: "-gge", name: "Alternate vector"},
 		copper_evil: {creator: "LandonHarter", name: 'Copper "Tickall" Fish'},

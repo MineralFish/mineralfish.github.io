@@ -1,4 +1,4 @@
-import { fishList } from "./fishList.js";
+import {default as fishList} from "./fishList.js";
 
 const fishes = Object.values(fishList);
 
