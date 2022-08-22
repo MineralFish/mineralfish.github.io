@@ -93,16 +93,16 @@
 			</td>
 			<td>
 				{#if obj.realName}
-				{obj.realName}
+					{obj.realName}
 				{:else}
-					Unknown
+					<i>Unknown</i>
 				{/if}
 			</td>
 			<td>
 				{#if obj.role}
 					{obj.role}
 				{:else}
-					Unknown
+					<i>Unknown</i>
 				{/if}
 			</td>
 			<td>{getString(obj.category)}</td>
@@ -111,7 +111,7 @@
 				{#if !(obj.creator === undefined)}
 					{obj.creator}
 				{:else}
-					Unknown
+					<i>Unknown</i>
 				{/if}
 			</td>
 			<td>
