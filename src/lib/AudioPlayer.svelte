@@ -127,6 +127,22 @@
 		N &gt;
 	</button>
 	<button on:click="{() => {
+		audioEl.currentTime = 0;
+		audioEl.play();
+	}}">
+		Restart
+	</button>
+	<button
+		on:click="{() => {
+			audioEl.playbackRate = audioEl.playbackRate + 0.5;
+			if (audioEl.playbackRate > 4) {
+				audioEl.playbackRate = 0.5;
+			}
+		}}"
+	>
+		Speed: {audioEl?.playbackRate || 1}
+	</button>
+	<button on:click="{() => {
 		if (audioEl.paused) {
 			audioEl.play();
 		} else {
@@ -233,7 +249,7 @@
 	.controls {
 		display: flex;
 		align-items: center;
-		padding: 6px 6px 6px 0;
+		padding: 8px 8px 0 0;
 		gap: 5px;
 		
 		font-variant-numeric: tabular-nums;

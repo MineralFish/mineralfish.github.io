@@ -1,7 +1,7 @@
 <script>
 	import AudioPlayer from "./lib/AudioPlayer.svelte";
 	
-	import {default as music} from "./data/music.js";
+	import {default as music, getString} from "./data/music.js";
 
 	let selectedSong = 0, player = null;
 	
@@ -11,6 +11,7 @@
 	}
 </script>
 
+<!--
 {#if selectedSong !== null}
 	<img
 		height="400"
@@ -18,6 +19,8 @@
 		alt="'Background'"
 	>
 {/if}
+-->
+
 {#if selectedSong !== null}
 	<h1>{music[selectedSong].name}</h1>
 	<h2>"{music[selectedSong].title}"</h2>
@@ -69,7 +72,7 @@
 			<td>{obj.name}</td>
 			<td>{obj.title}</td>
 			<td>{obj.internalName}</td>
-			<td>{obj.category}</td>
+			<td>{getString(obj.category)}</td>
 		</tr>
 	{/each}
 </table>
