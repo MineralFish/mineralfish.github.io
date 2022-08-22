@@ -1,7 +1,14 @@
 <script>
+	import AudioPlayer from "./lib/AudioPlayer.svelte";
+	
 	import {default as music} from "./data/music.js";
 
-	let selectedSong = null, player = null;
+	let selectedSong = 0, player = null;
+	
+	function start() {
+		player.load();
+		player.autoplay = true;
+	}
 </script>
 
 {#if selectedSong !== null}
@@ -15,7 +22,25 @@
 	<h1>{music[selectedSong].name}</h1>
 	<h2>"{music[selectedSong].title}"</h2>
 {/if}
-<audio bind:this={player} controls={true} src={music[selectedSong]?.url}></audio>
+<AudioPlayer
+	bind:audioEl={player}
+	src={music[selectedSong]?.url}
+	on:previous='{() => {
+		selectedSong = selectedSong - 1;
+		if (selectedSong < 0) {
+			selectedSong = music.length - 1;
+		}
+		start();
+	}}'
+	on:next='{() => {
+		selectedSong = (selectedSong + 1) % music.length;
+		start();
+	}}'
+	on:random='{() => {
+		selectedSong = Math.floor(Math.random() * music.length);
+		start();
+	}}'
+/>
 
 <br />
 
@@ -35,8 +60,7 @@
 				<button
 					on:click={() => {
 						selectedSong = index;
-						player.load();
-						player.autoplay = true;
+						start();
 					}}
 				>
 					>
