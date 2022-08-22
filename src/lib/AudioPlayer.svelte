@@ -127,6 +127,19 @@
 		N &gt;
 	</button>
 	<button on:click="{() => {
+		if (audioEl.paused) {
+			audioEl.play();
+		} else {
+			audioEl.pause();
+		}
+	}}">
+		{#if seeking ? seekPaused : audioEl?.paused}
+			Play
+		{:else}
+			Pause
+		{/if}
+	</button>
+	<button on:click="{() => {
 		audioEl.currentTime = 0;
 		audioEl.play();
 	}}">
@@ -141,19 +154,6 @@
 		}}"
 	>
 		Speed: {audioEl?.playbackRate || 1}
-	</button>
-	<button on:click="{() => {
-		if (audioEl.paused) {
-			audioEl.play();
-		} else {
-			audioEl.pause();
-		}
-	}}">
-		{#if seeking ? seekPaused : audioEl?.paused}
-			Play
-		{:else}
-			Pause
-		{/if}
 	</button>
 	<button on:click="{() => {
 		switch (loopStyle) {
