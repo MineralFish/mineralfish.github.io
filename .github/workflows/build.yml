@@ -29,7 +29,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: built-site
-          path: public/
+          path: dist/
       
       - name: Checkout to build
         uses: actions/checkout@v2
@@ -45,7 +45,6 @@ jobs:
       - name: Clear out things
         run: .|
           rm -rf ./${{ env.WORK_DIR }}assets
-          rm -rf ./${{ env.WORK_DIR }}build
           rm -rf ./${{ env.WORK_DIR }}favicon.png
           rm -rf ./${{ env.WORK_DIR }}global.css
           rm -rf ./${{ env.WORK_DIR }}index.html

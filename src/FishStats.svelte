@@ -7,7 +7,7 @@
 	const colors = {
 		"CST1229": "#639bff",
 		"-gge": "#fdd53a",
-		"official": "#fdd53a",
+		"main": "#fdd53a",
 		"LandonHarter": "#a2f82e",
 		"roketH77": "#0088ff",
 		"Marc92020": "#4dff00",
