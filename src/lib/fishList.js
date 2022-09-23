@@ -252,6 +252,8 @@ export const fishList = {
 	ollee: {realName: "Ollee", role: "Evil, making and editing pages on the Scratch/MF Wiki", category: "groupmade", type: "crossover", bitmap: true, vector: false, creator: "gilbert_given_TBG", textureCreator: "gilbert_given_TBG", fullName: "Origami Fish"},
 	cube: {realName: "Dashee", role: "Rating Geometry Dash levels", category: "groupmade", type: "crossover", bitmap: true, vector: false, creator: "JackyBorderCollie", textureCreator: "JackyBorderCollie", fullName: "GD Cube Fish",},
 	spike: {realName: "Crashee", role: "Making Geometry Dash levels harder", category: "groupmade", type: "crossover", bitmap: true, vector: false, creator: "JackyBorderCollie", textureCreator: "JackyBorderCollie", fullName: "GD Spike Fish",},
+	gilva: {realName: "Sunneree", role: "Ripping video game music", category: "groupmade", type: "crossover", bitmap: true, vector: false, creator: "JackyBorderCollie", textureCreator: "JackyBorderCollie", fullName: "GilvaSunner Fish",},
+	siiva: {realName: "Gunneree", role: "Making high quality rips", category: "groupmade", type: "crossover", bitmap: true, vector: false, creator: "JackyBorderCollie", textureCreator: "JackyBorderCollie", fullName: "SiIvaGunner Fish",},
 
 	trophy: {role: "Reward for Mineral Fish Forums scavenger hunt", category: "groupmade", type: "special", bitmap: true, vector: false, creator: "JackyBorderCollie", textureCreator: "CST1229", fullName: "Trophy Fish", alts: {
 		trophy_horizontal: {creator: "CST1229", name: "Horizontal sprite"},
