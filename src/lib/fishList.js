@@ -260,6 +260,11 @@ export const fishList = {
 		trophy_small: {creator: "CST1229", name: "16x16 sprite"},
 	}},
 	air: {role: "Used in Mineral Fish pixel art", category: "groupmade", type: "special", bitmap: true, vector: true, creator: "-gge", textureCreator: "-gge", vectorTextureCreator: "-gge", fullName: "Air Fish"},
+	brass: {category: "groupmade", type: "special", bitmap: true, vector: false, creator: "-gge", textureCreator: "CST1229", fullName: "Brass Fish", alts: {
+		bfweft: {creator: "-gge", name: "Brass Fish With Emerald Fish's Texture"},
+	}},
+	earthbound: {category: "groupmade", type: "crossover", bitmap: true, vector: false, creator: "TheGlassPenguin", textureCreator: "TheGlassPenguin", fullName: "EarthBound Player Fish"},
+	tumbleweed: {category: "groupmade", type: "misc", bitmap: true, vector: false, creator: "ChaoticControversies", textureCreator: "ChaoticControversies", fullName: "Tumbleweed Fish"},
 };
 export function getString(str) {
 	return strings[str] || str;
