@@ -261,7 +261,12 @@ export const fishList = {
 	}},
 	air: {role: "Used in Mineral Fish pixel art", category: "groupmade", type: "special", bitmap: true, vector: true, creator: "-gge", textureCreator: "-gge", vectorTextureCreator: "-gge", fullName: "Air Fish"},
 	brass: {category: "groupmade", type: "special", bitmap: true, vector: false, creator: "-gge", textureCreator: "CST1229", fullName: "Brass Fish", alts: {
-		bfweft: {name: "This texture was banned by the Mifernian Republic."},
+		// you shouldn't remove a fish from the census just because you don't like it
+		// also, -gge said on the mineral fish topic's op:
+		// > don't assume everyone has a grudge on you for not including your favourite fish,
+		// > because that will make everyone have a grudge on you and not include your favourite fish.
+		// > we should've put this rule here earlier.
+		bfweft: {creator: "-gge", name: "Brass Fish With Emerald Fish's Texture"},
 	}},
 	earthbound: {category: "groupmade", type: "crossover", bitmap: true, vector: false, creator: "TheGlassPenguin", textureCreator: "TheGlassPenguin", fullName: "EarthBound Player Fish"},
 	tumbleweed: {category: "groupmade", type: "misc", bitmap: true, vector: false, creator: "ChaoticControversies", textureCreator: "ChaoticControversies", fullName: "Tumbleweed Fish"},
