@@ -271,6 +271,7 @@ export const fishList = {
 	earthbound: {category: "groupmade", type: "crossover", bitmap: true, vector: false, creator: "TheGlassPenguin", textureCreator: "TheGlassPenguin", fullName: "EarthBound Player Fish"},
 	tumbleweed: {category: "groupmade", type: "misc", bitmap: true, vector: false, creator: "ChaoticControversies", textureCreator: "ChaoticControversies", fullName: "Tumbleweed Fish"},
 	rivapuppy: {category: "groupmade", type: "misc", bitmap: true, vector: false, creator: "JackyBorderCollie", textureCreator: "JackyBorderCollie", fullName: "RivaPuppy Fish"},
+	questionmark: {category: "groupmade", type: "misc", bitmap: true, vector: false, creator: "TheGlassPenguin", textureCreator: "TheGlassPenguin", fullName: "??? Fish"},
 };
 export function getString(str) {
 	return strings[str] || str;
