@@ -144,7 +144,10 @@ export const fishList = {
 	purpur: {category: "groupmade", type: "mcblocks", bitmap: false, vector: true, creator: "LandonHarter", fullName: "Purpur Fish", vectorTextureCreator: "LandonHarter"},
 	wooden: {role: "Telling people when something technically isn't a mineral fish", category: "groupmade", type: "mcblocks", bitmap: true, vector: false, creator: "PATSATDAT", textureCreator: "JackyBorderCollie", fullName: "Wooden Fish"},
 	notfound: {realName: "Errorree", category: "groupmade", type: "mcblocks", bitmap: true, vector: false, creator: "JackyBorderCollie", textureCreator: "JackyBorderCollie", fullName: "Not Found Fish"},
-
+	bedrock: {category: "groupmade", type: "mcblocks", bitmap: true, vector: false, creator: "supernavo", textureCreator: "supernavo", fullName: "Bedrock Fish"},
+	beenest: {category: "groupmade", type: "mcblocks", bitmap: true, vector: false, creator: "supernavo", textureCreator: "supernavo", fullName: "Bee Nest Fish"},
+	bell: {category: "groupmade", type: "mcblocks", bitmap: true, vector: false, creator: "supernavo", textureCreator: "supernavo", fullName: "Bell Fish"},
+	blast: {category: "groupmade", type: "mcblocks", bitmap: true, vector: false, creator: "supernavo", textureCreator: "supernavo", fullName: "Blast Furnace Fish"},
 
 	apple: {realName: "Watchee", role: "Test topics", category: "groupmade", type: "mcitems", bitmap: true, vector: true, creator: "JackyBorderCollie", textureCreator: "JackyBorderCollie", fullName: "Apple Fish", vectorTextureCreator: "LandonHarter", vectorAlts: {
 		apple_gge: {creator: "-gge", name: "Alternate vector"},
@@ -174,9 +177,23 @@ export const fishList = {
 	chorus: {category: "groupmade", type: "mcitems", bitmap: true, vector: true, creator: "LandonHarter", textureCreator: "-gge", fullName: "Chorus Fish", vectorTextureCreator: "LandonHarter"},
 	prismarineshard: {category: "groupmade", type: "mcitems", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Prismarine Shard Fish"},
 	stick: {category: "groupmade", type: "mcitems", bitmap: true, vector: false, creator: "LandonHarter", textureCreator: "LandonHarter", fullName: "Stick Fish"},
-
+	clock: {category: "groupmade", type: "mcitems", bitmap: true, vector: false, creator: "supernavo", textureCreator: "supernavo", fullName: "Clock Fish"},
+	cookedbeef: {category: "groupmade", type: "mcitems", bitmap: true, vector: false, creator: "supernavo", textureCreator: "supernavo", fullName: "Cooked Beef Fish"},
+	diamondhelm: {category: "groupmade", type: "mcitems", bitmap: true, vector: false, creator: "supernavo", textureCreator: "supernavo", fullName: "Diamond Helmet Fish"},
+	diamondsword: {category: "groupmade", type: "mcitems", bitmap: true, vector: false, creator: "supernavo", textureCreator: "supernavo", fullName: "Diamond Sword Fish"},
+	endcrystal: {category: "groupmade", type: "mcitems", bitmap: true, vector: false, creator: "supernavo", textureCreator: "supernavo", fullName: "End Crystal Fish"},
+	fermented: {category: "groupmade", type: "mcitems", bitmap: true, vector: false, creator: "supernavo", textureCreator: "supernavo", fullName: "Fermented Spider Eye Fish"},
+	purpledye: {category: "groupmade", type: "mcitems", bitmap: true, vector: false, creator: "supernavo", textureCreator: "supernavo", fullName: "Purple Dye Fish"},
+	salmon: {category: "groupmade", type: "mcitems", bitmap: true, vector: false, creator: "supernavo", textureCreator: "supernavo", fullName: "Salmon Fish"},
+	shear: {category: "groupmade", type: "mcitems", bitmap: true, vector: false, creator: "supernavo", textureCreator: "supernavo", fullName: "Shear Fish"},
+	trident: {category: "groupmade", type: "mcitems", bitmap: true, vector: false, creator: "supernavo", textureCreator: "supernavo", fullName: "Trident Fish"},
+	undying: {category: "groupmade", type: "mcitems", bitmap: true, vector: false, creator: "supernavo", textureCreator: "supernavo", fullName: "Totem of Undying Fish"},
+	
 	creeper: {category: "groupmade", type: "mcmobs", bitmap: true, vector: true, creator: "-TWILIGHTMISTY-", textureCreator: "-gge", vectorTextureCreator: "JackyBorderCollie", fullName: "Creeper Fish"},
 	enderman: {category: "groupmade", type: "mcmobs", bitmap: true, vector: false, creator: "TheGlassPenguin", textureCreator: "TheGlassPenguin", fullName: "Enderman Fish"},
+	bee: {category: "groupmade", type: "mcmobs", bitmap: true, vector: false, creator: "supernavo", textureCreator: "supernavo", fullName: "Bee Fish"},
+	irongolem: {category: "groupmade", type: "mcmobs", bitmap: true, vector: false, creator: "supernavo", textureCreator: "supernavo", fullName: "Iron Golem Fish"},
+	tabby: {category: "groupmade", type: "mcmobs", bitmap: true, vector: false, creator: "supernavo", textureCreator: "supernavo", fullName: "Tabby Cat Fish"},
 
 	blorfstone: {category: "groupmade", type: "mcrandom", bitmap: true, vector: false, creator: "lapisi", textureCreator: "lapisi", fullName: "Blorfstone Fish"},
 	ig: {category: "groupmade", type: "mcrandom", bitmap: true, vector: false, creator: "lapisi", textureCreator: "lapisi", fullName: "Ig Fish"},
@@ -218,6 +235,8 @@ export const fishList = {
 	greenapple: {category: "groupmade", type: "misc", bitmap: false, vector: true, creator: "LandonHarter", fullName: "Green Apple Fish", vectorTextureCreator: "LandonHarter"},
 	sweetandsourcarrot: {category: "groupmade", type: "misc", bitmap: false, vector: true, creator: "LandonHarter", fullName: "Sweet and Sour Carrot Fish", vectorTextureCreator: "LandonHarter"},
 	telegram: {category: "groupmade", type: "misc", bitmap: false, vector: true, creator: "LandonHarter", fullName: "Telegram Fish", vectorTextureCreator: "LandonHarter"},
+	bubble: {category: "groupmade", type: "misc", bitmap: true, vector: false, creator: "supernavo", textureCreator: "supernavo", fullName: "Bubble Fish"},
+	tutorial: {category: "groupmade", type: "misc", bitmap: true, vector: false, creator: "supernavo", textureCreator: "supernavo", fullName: "Tutorial Fish"},
 
 	roket: {role: "Dealing with Mineral Fish haters", category: "groupmade", type: "oc", bitmap: true, vector: true, creator: "roketH77", textureCreator: "roketH77", vectorTextureCreator: "roketH77", fullName: "Roket Fish"},
 	marc92020: {role: "Helping Roket Fish deal with Mineral Fish haters", category: "groupmade", type: "oc", bitmap: true, vector: true, creator: "-gge", textureCreator: "Marc92020", vectorTextureCreator: "-gge", fullName: "Marc92020 Fish"},
