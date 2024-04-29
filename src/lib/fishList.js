@@ -155,7 +155,9 @@ export const fishList = {
 		ender_gge: {creator: "-gge", name: "Alternate vector"},
 	}},
 	phantommembrane: {realName: "Elitree", role: "Welcoming", category: "groupmade", type: "mcitems", bitmap: true, vector: true, creator: "roketH77", textureCreator: "-gge", fullName: "Phantom Membrane Fish", vectorTextureCreator: "LandonHarter"},
-	cake: {realName: "Cakee", role: "Roleplaying in the forums", category: "groupmade", type: "mcitems", bitmap: true, vector: true, creator: "-TWILIGHTMISTY-", textureCreator: "-TWILIGHTMISTY-", fullName: "Cake Fish", vectorTextureCreator: "CST1229"},
+	cake: {realName: "Cakee", role: "Roleplaying in the forums", category: "groupmade", type: "mcitems", bitmap: true, vector: true, creator: "-TWILIGHTMISTY-", textureCreator: "-TWILIGHTMISTY-", fullName: "Cake Fish", vectorTextureCreator: "CST1229", alts: {
+		cakealt: {creator: "supernavo", name: "Alternate bitmap"},
+	}},
 	water: {role: "Helping Lapis Fish with flame wars", category: "groupmade", type: "mcitems", bitmap: true, vector: true, creator: "-TWILIGHTMISTY-", textureCreator: "-gge", vectorTextureCreator: "LandonHarter", fullName: "Water Fish"},
 	lava: {role: "Turning Water Fish into stone", category: "groupmade", type: "mcitems", bitmap: false, vector: true, creator: "PATSATDAT", vectorTextureCreator: "LandonHarter", fullName: "Lava Fish"},
 	fire: {role: "Causing flame wars", category: "requested", type: "mcitems", bitmap: true, vector: true, creator: "PATSATDAT", textureCreator: "JackyBorderCollie", fullName: "Fire Fish", vectorTextureCreator: "LandonHarter"},
