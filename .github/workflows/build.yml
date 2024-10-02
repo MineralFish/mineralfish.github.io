@@ -12,10 +12,10 @@ jobs:
     steps:
       - uses: actions/setup-node@v2
         with:
-          node-version: '16'
+          node-version: '20'
       
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           ref: ${{ github.ref_name }}
       
@@ -26,13 +26,13 @@ jobs:
         run: npm run build
       
       - name: Upload artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3.2.1-node20
         with:
           name: built-site
           path: dist/
       
       - name: Checkout to build
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           ref: 'build'
       
@@ -50,13 +50,13 @@ jobs:
           rm -rf ./${{ env.WORK_DIR }}index.html
 
       - name: Download artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: built-site
           path: ./${{ env.WORK_DIR }}
       
       - name: Commit and push
-        uses: EndBug/add-and-commit@v8
+        uses: EndBug/add-and-commit@v9
         with:
           message: Build branch ${{ github.ref_name }}
           push: true
