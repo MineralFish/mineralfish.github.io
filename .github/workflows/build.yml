@@ -61,3 +61,5 @@ jobs:
         with:
           message: Build branch ${{ github.ref_name }}
           push: true
+          committer_name: GitHub Actions
+          committer_email: actions@github.com
