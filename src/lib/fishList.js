@@ -103,7 +103,6 @@ export const fishList = {
 	chicken: {realName: "Bawkee", role: "Proposing articles to be featured", category: "groupmade", type: "mcmobs", bitmap: true, vector: true, creator: "-gge", textureCreator: "-gge", vectorTextureCreator: "JackyBorderCollie", fullName: "Chicken Fish"},
 	wheat: {realName: "Grainee", role: "Double quoting", category: "groupmade", type: "mcitems", bitmap: true, vector: true, creator: "-gge", textureCreator: "-gge", vectorTextureCreator: "JackyBorderCollie", fullName: "Wheat Fish"},
 	cookie: {realName: "Pastree", category: "groupmade", type: "mcitems", bitmap: true, vector: true, creator: "-gge", textureCreator: "-gge", vectorTextureCreator: "JackyBorderCollie", fullName: "Cookie Fish"},
-	prismarineshard: {category: "groupmade", type: "mcitems", bitmap: true, vector: true, creator: "-gge", textureCreator: "-gge", vectorTextureCreator: "JackyBorderCollie", fullName: "Prismarine Shard Fish"},
 
 	pig: {realName: "Oinkee", role: "Shops", category: "groupmade", type: "mcmobs", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Pig Fish"},
 	cow: {realName: "Bullee", role: "Scratch Wiki helper", category: "groupmade", type: "mcmobs", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Cow Fish"},
@@ -151,7 +150,6 @@ export const fishList = {
 
 	apple: {realName: "Watchee", role: "Test topics", category: "groupmade", type: "mcitems", bitmap: true, vector: true, creator: "JackyBorderCollie", textureCreator: "JackyBorderCollie", fullName: "Apple Fish", vectorTextureCreator: "LandonHarter", vectorAlts: {
 		apple_gge: {creator: "-gge", name: "Alternate vector"},
-		apple_evil: {creator: "LandonHarter", name: 'Apple "Watchall" Fish'},
 	}},
 	bread: {role: "Unconstructive criticism", category: "groupmade", type: "mcitems", bitmap: true, vector: true, creator: "wkmewsic", textureCreator: "-gge", fullName: "Bread Fish", vectorTextureCreator: "LandonHarter"},
 	ender: {realName: "Portee", role: "Topic moving", category: "groupmade", type: "mcitems", bitmap: true, vector: true, creator: "JackyBorderCollie", textureCreator: "JackyBorderCollie", fullName: "Ender Fish", vectorTextureCreator: "LandonHarter", vectorAlts: {
@@ -175,7 +173,7 @@ export const fishList = {
 	sweetberry: {category: "groupmade", type: "mcitems", bitmap: true, vector: true, creator: "LandonHarter", textureCreator: "-gge", fullName: "Sweet Berry Fish", vectorTextureCreator: "LandonHarter"},
 	firework: {category: "groupmade", type: "mcitems", bitmap: true, vector: true, creator: "LandonHarter", textureCreator: "-gge", fullName: "Firework Fish", vectorTextureCreator: "LandonHarter"},
 	chorus: {category: "groupmade", type: "mcitems", bitmap: true, vector: true, creator: "LandonHarter", textureCreator: "-gge", fullName: "Chorus Fish", vectorTextureCreator: "LandonHarter"},
-	prismarineshard: {category: "groupmade", type: "mcitems", bitmap: true, vector: false, creator: "-gge", textureCreator: "-gge", fullName: "Prismarine Shard Fish"},
+	prismarineshard: {category: "groupmade", type: "mcitems", bitmap: true, vector: true, creator: "-gge", textureCreator: "-gge", vectorTextureCreator: "JackyBorderCollie", fullName: "Prismarine Shard Fish"},
 	stick: {category: "groupmade", type: "mcitems", bitmap: true, vector: false, creator: "LandonHarter", textureCreator: "LandonHarter", fullName: "Stick Fish"},
 	clock: {category: "groupmade", type: "mcitems", bitmap: true, vector: false, creator: "supernavo", textureCreator: "supernavo", fullName: "Clock Fish"},
 	cookedbeef: {category: "groupmade", type: "mcitems", bitmap: true, vector: false, creator: "supernavo", textureCreator: "supernavo", fullName: "Cooked Beef Fish"},

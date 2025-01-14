@@ -1,5 +1,6 @@
 <script>
-	import { fishList, getString } from "./lib/fishList.js";
+	import {fishList, getString} from "$lib/fishList.js";
+	import { base } from "$app/paths";
 </script>
 
 <table>
@@ -17,6 +18,7 @@
 			<th>{getString("vectorTextureCreator")}</th>
 		</tr>
 	</thead>
+	<tbody>
 	{#each Object.keys(fishList) as fish}
 		{@const obj = fishList[fish]}
 		<tr>
@@ -27,12 +29,13 @@
 						<img
 							class="fish-image fish-bitmap"
 							class:pixelated={!obj.smooth}
-							src="/assets/fish/{fish}.png"
+							src="{base}/assets/fish/{fish}.png"
+							loading="lazy"
 							alt={obj.fullName}
 						/>
 					</div>
 				{:else}
-					<i>N/A</i>
+					<i>-</i>
 				{/if}
 				{#if obj.alts}
 					<details>
@@ -48,12 +51,12 @@
 									)
 								: (
 									altObj.creator ? "by " + altObj.creator : ""
-								)
-							}
+								)}
 							<img
 								class="fish-image fish-bitmap fish-alt"
 								class:pixelated={!altObj.smooth}
-								src="/assets/fish/{alt}.png"
+								src="{base}/assets/fish/{alt}.png"
+								loading="lazy"
 								alt={altText}
 								title={altText}
 							/> <br />
@@ -67,11 +70,12 @@
 						class="fish-image fish-vector"
 						width="48"
 						height="auto"
-						src="/assets/fish/vector/{fish}.svg"
+						src="{base}/assets/fish/vector/{fish}.svg"
+						loading="lazy"
 						alt={obj.fullName + " vector"}
 					/>
 				{:else}
-					<i>N/A</i>
+					<i>-</i>
 				{/if}
 				{#if obj.vectorAlts}
 					<details>
@@ -83,7 +87,8 @@
 								class="fish-image fish-vector fish-alt"
 								width="48"
 								height="auto"
-								src="/assets/fish/vector/{alt}.svg"
+								src="{base}/assets/fish/vector/{alt}.svg"
+								loading="lazy"
 								alt={altText}
 								title={altText}
 							/> <br />
@@ -118,18 +123,19 @@
 				{#if obj.textureCreator}
 					{obj.textureCreator}
 				{:else}
-					<i>N/A</i>
+					<i>-</i>
 				{/if}
 			</td>
 			<td>
 				{#if obj.vectorTextureCreator}
 					{obj.vectorTextureCreator}
 				{:else}
-					<i>N/A</i>
+					<i>-</i>
 				{/if}
 			</td>
 		</tr>
 	{/each}
+</tbody>
 </table>
 
 <style>

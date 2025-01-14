@@ -18,7 +18,7 @@ To clone and run a development server on your machine (that autoupdates when you
 ```
 git clone https://github.com/MineralFish/mineralfish.github.io
 cd mineralfish.github.io
-npm install
+npm ci
 npm run dev
 ```
 
@@ -29,10 +29,3 @@ npm run build
 ```
 
 (Note: A GitHub Action will usually do this for you when you push to the repo.)
-
-------
-
-Relevant bit of information from the original readme:
-
-> ## Recommended IDE Setup
-> [VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
