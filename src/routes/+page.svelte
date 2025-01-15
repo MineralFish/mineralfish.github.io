@@ -3,6 +3,10 @@
 	import { base } from "$app/paths";
 </script>
 
+<svelte:head>
+	<title>2022 Mifernian Census</title>
+</svelte:head>
+
 <table>
 	<thead>
 		<tr>

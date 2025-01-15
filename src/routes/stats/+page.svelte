@@ -36,6 +36,10 @@
 	}
 </script>
 
+<svelte:head>
+	<title>2022 Mifernian Census Stats</title>
+</svelte:head>
+
 <noscript><p>
     You need JavaScript enabled to see charts!
 </p></noscript>
